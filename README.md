@@ -10,6 +10,8 @@ The application focuses on three key pillars:
 * 🛡️ **Safety** – Detects potential drug interactions and warnings
 * 📍 **Convenience** – Helps locate nearby pharmacies with required medicines
 
+### Run Command
+python -m uvicorn fast_api_file:api --reload --reload-exclude "*.db"
 ---
 
 ## 🚀 Key Features
