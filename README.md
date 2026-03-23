@@ -11,8 +11,7 @@ The application focuses on three key pillars:
 * 📍 **Convenience** – Helps locate nearby pharmacies with required medicines
 
 ### Run Command
-*python -m uvicorn fast_api_file:api --reload --reload-exclude "*.db"*
----
+python -m uvicorn fast_api_file:api --reload --reload-exclude "*.db"   ---
 
 ## 🚀 Key Features
 
